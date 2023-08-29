@@ -45,7 +45,7 @@ const Sidebar = ({ children }: SidebarProps) => {
                <Library/>
             </Box>
         </div>
-        <main className='h-full  overflow-y-auto flex-1 py-2'>
+        <main className='h-full  overflow-y-auto flex-1 py-2 px-4'>
         {children}
         </main>
        
